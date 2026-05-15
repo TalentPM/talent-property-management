@@ -74,12 +74,15 @@ nav { display: flex; gap: 22px; align-items: center; font-size: 14px; }
 
 .hero {
   background:
-    linear-gradient(rgba(23,35,58,0.68), rgba(23,35,58,0.68)),
-    url('hero-house.jpg');
+    linear-gradient(rgba(23,35,58,0.60), rgba(23,35,58,0.60)),
+    url('/hero-house.jpg');
+
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
   color: white;
-  padding: 120px 0;
+  padding: 130px 0;
 }
 
 .hero-grid {
